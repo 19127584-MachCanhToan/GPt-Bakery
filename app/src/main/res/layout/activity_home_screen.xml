@@ -16,8 +16,17 @@
            android:layout_height="wrap_content"
            android:text="phần còn lại của LEADER"
            android:textSize="100dp"
-           android:layout_marginTop="90dp"
-           ></TextView>
+           android:layout_marginTop="90dp" />
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="10dp"
+            android:text="log out"
+            android:background="@drawable/buttoncustom"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
     </LinearLayout>
 
 </RelativeLayout>
